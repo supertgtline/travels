@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dien may xanh</title>
+    <title>Travels</title>
     <link href="../../../webroot/css/bootstrap.min.css" media="all" rel="stylesheet">
     <link href="../../../webroot/css/style.css" media="all" rel="stylesheet">
     <script src="../../../webroot/js/jquery-1.10.2.min.js"></script>
@@ -42,5 +42,49 @@
         </div>
     </div>
 </div>
+<div class="container-fluid">
+    <div class="main-menu">
+        <nav class="navbar navbar-default" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.php">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About us <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Speech</a></li>
+                            <li><a href="#">Company Profile</a></li>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Honor</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">News Product</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+    </div>
+</div>
+<?php include 'home.php'?>
+<?php include 'footer.php'?>
 </body>
 </html>

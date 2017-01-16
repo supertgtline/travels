@@ -10,6 +10,7 @@
 }
 #header{
     background: url("../../webroot/img/bg-header.jpg");
+    vertical-align: top;
 }
 /*Search*/
 
@@ -40,3 +41,81 @@
     font-size: 23px;
     color: red;
 }
+/*Navigation*/
+#search{
+    margin: 15px 0px 0px ;
+}
+
+/*Home*/
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+.main-menu nav {
+    background: url("../../webroot/img/bg-nav.png") repeat-x;
+}
+div.container-fluid {
+    padding: 0px;
+}
+.main-menu nav li{
+    background: url("../../webroot/img/bg-nav-02.png") repeat-x;
+}
+.main-menu ul.nav:before{
+     background: url("../../webroot/img/bg-nav-01.png") no-repeat;
+     width: 55px;
+     content: " ";
+     float: left;
+     height: 50px;
+ }
+.main-menu ul.nav:after{
+    background: url("../../webroot/img/bg-nav-03.png") no-repeat;
+    width: 100px;
+    content: " ";
+    float: right;
+    height: 50px;
+    clear: none;
+}
+/*Footer*/
+#footer{
+    background: url("../../webroot/img/bg-footer.jpg") repeat-x;
+    height: 75px;
+    color: white;
+    padding-top: 10px;
+
+}
+/*Home Page*/
+.gioithieu-panel img{
+    float: left;
+}
+.list-news ul li{
+    list-style: none;
+    padding-left: 0px;
+}
+.list-news ul {
+    padding-left: 0px;
+}
+.list-news li:before{
+    content: " ";
+     background: url("../../webroot/img/bg-list-style.png") no-repeat;
+    width: 10px;
+    height: 10px;
+    display: block;
+    float: left;
+    margin-top: 8px;
+ }
